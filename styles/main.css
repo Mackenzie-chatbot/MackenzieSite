@@ -2,12 +2,12 @@
 Main Body
 ***********************************/
 
-body {
+/*body {}*/
 
 #wrapper {
     max-width: 940px;
-    margin: 0 auto;
-    padding: 0 5%;
+    margin: 0px;
+    padding: 0;
 }
 
 a {
@@ -54,12 +54,42 @@ GALLERY
     color: #bdc3c7;
 }
 
-#img {
-    width:300px;
-    height:300px;
+.row {
     float:left;
+    width:100%;
+    margin:auto;
+    padding:12%;
+    padding-top:0%;
+    
+}
+
+#img {
+    width:20%;
+    float:left;
+    margin-left:10%;
 }
 
 #textbox{
-    float:right;
+    font-family:Arial, Helvetica, sans-serif;
+    width:50%;
+    float:left;
+    margin-left:5%;
+    margin-right:5%;
+    text-align:left;
+    line-height: 25px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#textboxQ{
+border:1px solid black;
+}
+
+.faq {
+    margin:0px;
+}
+footer{
+    display: block;
 }
