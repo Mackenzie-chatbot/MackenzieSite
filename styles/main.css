@@ -56,18 +56,40 @@ GALLERY
 
 .row {
     float:left;
-    margin-left:20px;
+    width:100%;
+    margin:auto;
+    padding:12%;
+    padding-top:0%;
+    
 }
 
 #img {
+    width:20%;
     float:left;
+    margin-left:10%;
 }
 
 #textbox{
+    font-family:Arial, Helvetica, sans-serif;
+    width:50%;
     float:left;
-    margin:0;
+    margin-left:5%;
+    margin-right:5%;
+    text-align:left;
+    line-height: 25px;
 }
 
-footer{
+h2 {
+    margin-top: 20px;
+}
+
+#textboxQ{
+border:1px solid black;
+}
+
+.faq {
     margin:0px;
+}
+footer{
+    display: block;
 }
