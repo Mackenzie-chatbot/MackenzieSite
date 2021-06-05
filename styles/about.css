@@ -1,0 +1,53 @@
+.row {
+    float:left;
+    width:100%;
+    margin:auto;
+    margin-top:20px;
+    padding:12%;
+    padding-top:0%;
+}
+
+#img {
+    width:20%;
+    float:left;
+    margin:5%;
+}
+
+#textRight, #textLeft, #question{
+    font-family:Arial, Helvetica, sans-serif;
+    width:50%;
+    float:left;
+    margin:0%;
+    text-align:left;
+    line-height: 25px;
+}
+
+#textRight, #question {
+    margin-left:5%;
+}
+
+#textLeft, #answer {
+    margin-right:5%;
+}
+
+#question{
+    background-color:gray;
+    padding:20px;
+    border-radius:20px;
+}
+
+#speechTail{
+    width:0px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid gray;
+    margin-left:-35px;
+}
+
+h2 {
+    margin-top: 2%;
+}
+
+.faq {
+    margin:0px;
+}
