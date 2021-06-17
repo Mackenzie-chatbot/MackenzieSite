@@ -32,18 +32,31 @@ body{
     margin-right:5%;
 }
 
-#question{
+#faqQ, #faqA{
+    width:50%;
+    float:left;
+    margin:0%;
+    text-align:left;
+    line-height: 25px;
     background-color:gray;
     padding:20px;
     border-radius:20px;
 }
 
-#speechTail{
+#questionTail{
     width:0px;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
     border-right: 15px solid gray;
     margin-left:-35px;
+}
+
+#answerTail{
+    width:0px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid gray;
+    margin-left:0px;
 }
 
 #title {
