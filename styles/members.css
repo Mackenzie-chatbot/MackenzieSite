@@ -52,6 +52,7 @@ padding-top: 20px;
 
 }
 li{
+  
   float: left;
   list-style: none;
   margin-right: 10px;
@@ -75,3 +76,4 @@ footer{
     display: block;
     float: right;
 }
+
