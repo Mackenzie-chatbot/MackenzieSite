@@ -16,6 +16,13 @@ a {
 }
 
 
+img, theImage{
+    width: 70px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /**********************************
 FONTS
 ***********************************/
@@ -47,7 +54,7 @@ nav li {
 
 nav a {
     font-weight: 700i;
-    font-family: 'Oswald';
+    font-family: 'Arial';
     padding: 15px 10px;
 }
 
@@ -63,10 +70,6 @@ header {
     width: 100%;
 }
 
-#logo {
-    text-align: center;
-    margin: 0;
-}
 
 h1 {
     font-family: 'Altavista';
@@ -149,28 +152,38 @@ footer{
 
 /**********************************
 COLORS
+
+
+
+#729482 darkest green
+#babca4 lighter green
+#dcd8af yellow green
+
+
 ***********************************/
+
+
+
 
 /* site body */
 
 body {
-    background-color: #dcdcdc;
-    color: #999;
+    background-color: #789786;
 }
 
 /* header color */
 
 header {
-    background: #343434;
+    background: #acac95;
 }
 
 /* nav background on mobile */
 
 nav {
-    background: #505050;
+    background: #c0c0a9;
 }
 
-/* links */
+/* links/logo */
 
 a {
     color: #dcdcdc;
@@ -180,22 +193,22 @@ a {
 
 nav a,
 nav a:visited {
-    color: #dcdcdc;
+    color: #000;
 }
 
-/* selected nav link */
+/* selected nav link
+
+Color? = rgb(92, 91, 91);
+
+*/
 
 nav a.selected,
 nav a:hover {
 
-    color: #c02020;
+    color: rgb(90, 82, 82);
 
 }
 
-a:hover,
-a:focus {
-    color: #c02020;
-}
 
 /**********************************
 FOOTER
