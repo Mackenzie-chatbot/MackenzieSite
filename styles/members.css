@@ -41,8 +41,18 @@ header {
 GALLERY
 ***********************************/
 .teamNames{
-    display: table;
+
+    display: flex;
     margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.teamNames > div{
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+    text-align: center;
+    flex: 1 0 21%;
 }
 ul#horizontal
 {
@@ -56,6 +66,7 @@ li{
   float: left;
   list-style: none;
   margin-right: 10px;
+  text-align: center;
 }    
 #gallery {
     margin: 0;
