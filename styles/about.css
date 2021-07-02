@@ -42,6 +42,7 @@ body{
     padding:20px;
     border-radius:20px;
     float:left;
+    box-shadow: 10px 10px 5px grey;
 }
 
 #faqQ{
@@ -105,7 +106,7 @@ h4{
     float:right;
     text-align: justify;
     word-wrap:break-word;
-    margin:5px 15px;
+    margin:-10% 3% 0px 5%;
 }
 
 .title{
@@ -117,3 +118,4 @@ h4{
 .faq {
     margin:0px;
 }
+
