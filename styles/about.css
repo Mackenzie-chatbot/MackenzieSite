@@ -3,6 +3,15 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
+header {
+    background: #729482;
+}
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
 .row {
     float:left;
     width:100%;
@@ -56,6 +65,7 @@ body{
     margin-left:80px;
 }
 
+
 #questionTail{
     width:0px;
     border-top: 15px solid transparent;
@@ -74,6 +84,7 @@ body{
     margin-top:20px;
     float:left;
 }
+
 
 #title {
     width:125px;
@@ -106,7 +117,7 @@ h4{
     float:right;
     text-align: justify;
     word-wrap:break-word;
-    margin:-10% 3% 0px 5%;
+    margin: -5% 4% 0px 5%;
 }
 
 .title{

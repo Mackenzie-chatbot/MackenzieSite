@@ -3,7 +3,8 @@ Main Body
 ***********************************/
 
 body {
-    background-color: lightblue;
+    font-family: "Arial";
+    background-color: #729482;
 }
 
 #wrapper {
@@ -25,10 +26,8 @@ FONTS
 HEADING
 ***********************************/
 
-header {
-    float: left;
-    margin: 0 0 30px 0;
-    width: 100%;
+header{
+    background-color:#babca4;;
 }
 
 #logo {
@@ -54,20 +53,36 @@ GALLERY
     text-align: center;
     flex: 1 0 21%;
 }
-ul#horizontal
-{
-min-width: 696px;
-list-style:none;
-padding-top: 20px;
+nav {
+    background: #c0c0a9;
+}
+
+/* links/logo */
+
+a {
+    color: #dcdcdc;
+}
+
+/* nav link */
+
+nav a,
+nav a:visited {
+    color: #000;
+}
+
+/* selected nav link
+
+Color? = rgb(92, 91, 91);
+
+*/
+
+nav a.selected,
+nav a:hover {
+
+    color: rgb(90, 82, 82);
 
 }
-li{
-  
-  float: left;
-  list-style: none;
-  margin-right: 10px;
-  text-align: center;
-}    
+
 #gallery {
     margin: 0;
     padding: 0;
