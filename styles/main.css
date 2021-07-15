@@ -167,7 +167,9 @@ GALLERY
 
 #gallery li {
     float: left;
-
+    padding: 0px 20px;
+    margin: 40px 30px 40px 30px;
+    text-align: center;
 }
 
   

@@ -59,12 +59,10 @@ GALLERY
 }
 
 .profileImage{
-    width: auto;
+    width: 15%;
     height: auto;
-    size: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
+
 
 nav {
     background: #c0c0a9;
