@@ -199,12 +199,19 @@ h4{
     margin-top:25px;
 }
 
-#speechtext{
-    width:90%;
+#speechtextQ, #speechtextA {
+    width:85%;
     float:right;
-    text-align: center;
     word-wrap:break-word;
-    margin: -5% 4% 0px 5%;
+}
+
+#speechtextQ {
+    margin:-30px 0px 0px 50px;
+}
+
+#speechtextA {
+    margin: 15px 0px 0px 50px;
+    
 }
 
 .title{
