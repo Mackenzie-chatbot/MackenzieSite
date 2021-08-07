@@ -55,13 +55,6 @@ a:hover{
 }
 
 
-.defualtImage{
-    float:left;
-    width: 55px;
-    border-radius: 50%;
-    margin-top: 15px;
-    margin-left: 30px;
-}
 
 /**********************************
 FONTS
@@ -261,6 +254,145 @@ nav a:hover {
 }
 
 
+#faqQ, #faqA{
+    width:35%;
+    margin-left:30px;
+    line-height: 25px;
+    background-color:gray;
+    padding: 10px;
+    border-radius:20px;
+    float:left;
+}
+
+#faqQ{
+    background-color: #bcd1c6;
+    padding-top:2px;
+    box-shadow: 5px 5px 5px darkslategray;
+}
+
+#faqA{
+    background-color: #acac95;
+    padding-top: 2px;
+    box-shadow: -5px 5px 5px darkslategray;
+    margin-left:25%;
+}
+
+
+#questionTail{
+    width:0px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #729482;
+    margin-left:-35px;
+    margin-top:15px;
+}
+
+#answerTail{
+    width:0px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fdfced;
+    margin-right:-35px;
+    margin-top:15px;
+}
+
+
+speechtextQ, #speechtextA {
+    width:auto;
+    float:right;
+    
+}
+
+#speechtextQ {
+    margin: 15px;
+}
+
+#speechtextA {
+    margin: 15px;
+    
+}
+
+.title{
+    border:2px solid gray;
+    border-radius:20px;
+}
+
+.faq {
+    margin:0px;
+}
+
+
+img, defaultImage{
+    float:left;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+
+.defaultImages{
+    float:left;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius:50%;
+    border:3px solid #729482;
+}
+
+.row {
+    float:left;
+    width:100%;
+    margin:auto;
+    margin-top:50px;
+    padding-left: 13%;
+    align-items: center;
+}
+
+.row1 {
+    float:left;
+    width:100%;
+    margin:auto;
+    margin-top:50px;
+    align-items: center;
+}
+form {
+    background-color: #d9dfdb;
+    width: 50%;
+    height: 44px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+  }
+  
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    
+  }
+
+  ::placeholder {
+    color: #505050;
+    opacity: 0.7; 
+  }
+
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 130px;
+    height: auto;
+  }
+  
+  
 
 
 /**********************************
@@ -275,7 +407,7 @@ footer {
     color: #343434;
     float: left;
     margin: 0 0 30px 0;
-    padding: 0;
+    padding: 30px;
     width: 100%;
 }
 
