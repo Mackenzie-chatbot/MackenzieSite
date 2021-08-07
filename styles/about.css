@@ -91,7 +91,7 @@ nav a:hover {
 }
 
 #faqQ, #faqA{
-    width:58%;
+    width:38%;
     margin-left:30px;
     text-align:left;
     line-height: 25px;
@@ -103,7 +103,6 @@ nav a:hover {
 }
 
 #faqQ{
-    width:auto;
     background-color: #729482;
     padding-top:8px;
     box-shadow: 10px 10px 5px grey;
@@ -112,8 +111,8 @@ nav a:hover {
 #faqA{
     background-color: #fdfced;
     padding-top:50px;
-    margin-left:80px;
     box-shadow: -10px 10px 5px grey;
+    margin-left:25%;
 }
 
 
@@ -171,7 +170,7 @@ nav a {
 }
 
 
-header {
+.header1 {
     background: #729482;
     float: left;
     margin: 0 0 20px 0;
@@ -200,17 +199,17 @@ h4{
 }
 
 #speechtextQ, #speechtextA {
-    width:85%;
+    width:75%;
     float:right;
     word-wrap:break-word;
 }
 
 #speechtextQ {
-    margin:-30px 0px 0px 50px;
+    margin: 25px 30px 0px 0px;
 }
 
 #speechtextA {
-    margin: 15px 0px 0px 50px;
+    margin: 10px 20px 0px 0px;
     
 }
 
